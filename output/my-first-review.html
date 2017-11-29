@@ -1,73 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="utf-8" />
-        <title>My First Review</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
-
-        <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+ <title>My First Review</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 </head>
+<body>
+<header>
+    <nav class="blue-grey darken-3" role="navigation">
+        <div class="nav-wrapper container">
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="/">Pelican Test Site </a></h1>
-                <nav><ul>
-                    <li class="active"><a href="/category/review.html">Review</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-<section id="content" class="body">
-  <article>
-    <header>
-      <h1 class="entry-title">
-        <a href="/my-first-review.html" rel="bookmark"
-           title="Permalink to My First Review">My First Review</a></h1>
-    </header>
-
-    <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2010-12-03T10:20:00+01:00">
-                Published: Fri 03 December 2010
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/me.html">Me</a>
-        </address>
-<p>In <a href="/category/review.html">Review</a>.</p>
-
-</footer><!-- /.post-info -->      <p>Following is a review of my favorite mechanical keyboard.</p>
-    </div><!-- /.entry-content -->
-
-  </article>
-</section>
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>links</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
-
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
-
+            <a href="/" class="brand-logo"><img src="../images/fist-logo.png" style="max-height:60px;">Dcoumenting Resistance</a>
+            <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+            <ul id="dropdown" class="dropdown-content">
+                <li class="active"><a class="truncate" href="/category/review.html">Review</a></li>
+            </ul>
+            <ul class="right hide-on-med-and-down">
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown">Catégories<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
+                <li><a href="/archives.html">Archives</a></li>
+            </ul>
+            <ul id="mobile-nav" class="side-nav">
+                <li class="active"><a href="/category/review.html">Review</a></li>
+                <li><a href="/archives.html">Archives</a></li>
+            </ul>
+        </div>
+    </nav>
+</header> <div class="container">
+<div class="row">
+ <div class="col-md-8">
+  <h1>My First Review</h1>
+  <!-- <label>Posted on <strong>2010-12-03 10:20:00+01:00</strong></label> -->
+  <p>Following is a review of my favorite mechanical keyboard.</p>
+ </div>
+</div>
+ </div>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 </body>
 </html>

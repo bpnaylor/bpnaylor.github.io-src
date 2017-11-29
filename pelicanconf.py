@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
-from functools import partial
+# from functools import partial
 
 AUTHOR = 'Me'
 SITENAME = 'Dcoumenting Resistance'
@@ -35,23 +35,23 @@ DEFAULT_PAGINATION = False
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 # global metadata to all the contents
-DEFAULT_METADATA = {'yeah': 'it is'}
+# DEFAULT_METADATA = {'yeah': 'it is'}
 
 # path-specific metadata
 # EXTRA_PATH_METADATA = {
 #     'extra/robots.txt': {'path': 'robots.txt'},
 #     }
-THEME = "/Users/zgl3n/pelican-themes/material"
+# THEME = "/home/directory/pelican-themes/material"
 # static paths will be copied without parsing their contents
 STATIC_PATHS = [
     'images',
-    'pdfs',
+    # 'pdfs',
     ]
-JINJA_FILTERS = {
-    'sort_by_article_count': partial(
-        sorted,
-        key=lambda tags: len(tags[1]),
-        reverse=True)} # reversed for descending order
+# JINJA_FILTERS = {
+#     'sort_by_article_count': partial(
+#         sorted,
+#         key=lambda tags: len(tags[1]),
+#         reverse=True)} # reversed for descending order
 # custom page generated with a jinja2 template
 # TEMPLATE_PAGES = {'pages/jinja2_template.html': 'jinja2_template.html'}
 
