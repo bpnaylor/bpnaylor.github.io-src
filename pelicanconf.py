@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 # from functools import partial
 
 AUTHOR = 'Me'
-SITENAME = 'Dcoumenting Resistance'
+SITENAME = 'Documenting Resistance'
 SITEURL = ''
 
 PATH = 'content'
