@@ -1,17 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
-# from functools import partial
 
-AUTHOR = 'Me'
-SITENAME = 'Documenting Resistance'
+AUTHOR = 'B Naylor'
+SITENAME = 'Charlottesville Oral Histories'
 SITEURL = ''
 
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
 
-DEFAULT_LANG = 'en'
+DEFAULT_LANG = 'EN'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -22,38 +21,36 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = False
+DEFAULT_PAGINATION = 8
+
+PLUGIN_PATHS = ["plugins","/Users/zgl3n/Slab/pelican-plugins"]
+PLUGINS = ["liquid_tags.soundcloud","liquid_tags.youtube"]
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
-# global metadata to all the contents
-# DEFAULT_METADATA = {'yeah': 'it is'}
+RELATIVE_URLS = True
 
-# path-specific metadata
-# EXTRA_PATH_METADATA = {
-#     'extra/robots.txt': {'path': 'robots.txt'},
-#     }
-# THEME = "/home/directory/pelican-themes/material"
-# static paths will be copied without parsing their contents
-STATIC_PATHS = [
-    'images',
-    # 'pdfs',
-    ]
-# JINJA_FILTERS = {
-#     'sort_by_article_count': partial(
-#         sorted,
-#         key=lambda tags: len(tags[1]),
-#         reverse=True)} # reversed for descending order
-# custom page generated with a jinja2 template
-# TEMPLATE_PAGES = {'pages/jinja2_template.html': 'jinja2_template.html'}
+# NEW STUFF
 
-# code blocks with line numbers
-PYGMENTS_RST_OPTIONS = {'linenos': 'table'}
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = False
+
+MENUITEMS = (
+    ('about', '/about.html'),
+    ('video', '/category/video.html'),
+    ('audio', '/category/audio.html'),
+    ('news','/category/news.html'),
+    ('podcast', '/category/podcast.html'),
+    ('resources','/category/resources.html'),
+    ('contact','/contact.html')
+    )
+
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
+CATEGORY_URL = 'category/{slug}.html'
+CATEGORY_SAVE_AS = 'category/{slug}.html'
