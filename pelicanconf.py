@@ -2,8 +2,10 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+
 AUTHOR = 'B Naylor'
 SITENAME = 'Charlottesville Oral Histories'
+
 SITEURL = ''
 
 PATH = 'content'
