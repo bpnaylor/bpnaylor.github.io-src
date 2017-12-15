@@ -2,18 +2,18 @@ Title: About
 category: page
 Slug: about
 
-# Summer of Hate
+#### Summer of Hate
 
-A brief intro to the events that sparked this project.
+*1- or 2-paragraph intro to the events that sparked this project.*
 
-# Oral Histories
+In August 11-12, 2017, white supremacists descended on Charlottesville and the University of Virginia to protest the removal of a statue of General Robert E Lee, yelling "white lives matter" and "blood and soil" and clashing violently with counter-protesters.
 
-General purpose of oral histories; specific purpose of THIS oral history.
+#### Oral Histories
 
-# This Site (?)
+*1 paragraph explanation of the general purpose of oral histories. 1 paragraph discussion of the specific purpose of THIS oral history.*
 
-Check out raw footage of the [video](/video.html) or [audio](/audio.html) interviews, our [podcast](/podcast.html), latest [news](/news.html), and additional [resources](/resources.html).
+The Documenters collect the personal, firsthand accounts of community organizers and local witnesses that form a living history of the Summer of Hate, capturing the narrative and repercussions of these far-reaching, significant events on the most granular, intimate scale.
 
-# The Documenters
+#### The Documenters
 
-Names, photos, brief description of our group
+*Names, photos, brief description of our group.*
