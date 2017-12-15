@@ -31,7 +31,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = 8
 
-PLUGIN_PATHS = ["plugins","/Users/zgl3n/Slab/pelican-plugins"]
+PLUGIN_PATHS = ["plugins","C:/Users/Beth/Documents/projects/pelican-plugins/"]
 PLUGINS = ["liquid_tags.soundcloud","liquid_tags.youtube"]
 
 # Uncomment following line if you want document-relative URLs when developing
